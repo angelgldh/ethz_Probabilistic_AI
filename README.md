@@ -31,7 +31,7 @@ This Project contains 4 tasks carried out as part of the [Probabilistic Artifici
 </div>
 
 <div align="center"> 
-  <img src="!https://user-images.githubusercontent.com/102548683/211348767-76ddd9a3-8174-4f61-82bf-a724659e61dc.png" alt = "screenshot />
+  <img src="[!https://user-images.githubusercontent.com/102548683/211348767-76ddd9a3-8174-4f61-82bf-a724659e61dc.png](https://thegradient.pub/content/images/2019/11/kernel_cookbook-2.png)" alt = "screenshot />
 </div>
 
 
