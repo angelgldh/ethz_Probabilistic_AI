@@ -24,6 +24,15 @@
 
 This Project contains 4 tasks carried out as part of the [Probabilistic Artificial Intelligence (PAI)](https://las.inf.ethz.ch/teaching/pai-f22) subject at ETH-Zurich, Autumn 2022 semester.
 
+### Task 1: Gaussian Process regression
+
+<div align="left"> 
+  <img src="![image](https://user-images.githubusercontent.com/102548683/211348396-e83bc627-e85e-40fc-8c27-1c0eb7e3e615.png)" />
+</div>
+
+<div align="right"> 
+  <img src="![image](https://user-images.githubusercontent.com/102548683/211348534-70942249-1d80-4019-96c0-c0551ff63ba0.png)" />
+</div>
 
 
 <!-- Getting Started -->
