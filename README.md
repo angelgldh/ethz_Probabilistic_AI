@@ -2,7 +2,7 @@
 # Table of Contents
 
 - [About the Project](#about-the-project)
-  * [Task 1: Gaussian Process regression](#task-1-Gaussian-Process-regression-to-predict-air-pollution)
+  * [Task 1: Gaussian Process regression to predict air pollution](#task-1-Gaussian-Process-regression-to-predict-air-pollution)
 - [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
@@ -53,9 +53,39 @@ The problem presents various challenges:
 
 #### Approach and results
 
+The main contribution is the division of the city map into various squares of same size, where an individual GP is fitted. This way, we implement a Local GP approach and make predictions more specific to every location.
 
+This approach achieves a more specific prediction than implementing a global GP and produces a cumulative cost of 48.519.
 
 ![task_1_results](https://user-images.githubusercontent.com/102548683/211350293-8b55d009-fbf6-4bfe-ba32-b23f47931e4c.png)
+
+
+### Task 2: Bayesian neural Network (BNN) for multi-class classification
+![image](https://user-images.githubusercontent.com/102548683/211356167-e1271fe4-5923-429d-8e97-cf3fb1effbdb.png)
+Source: Ahamed, S. (2019). Estimating uncertainty of earthquake rupture using Bayesian neural network. arXiv preprint arXiv:1911.09660.
+
+#### Goal
+Implement a Bayesian Neural Network for multi-class classification using Monte Carlo drop-out.
+
+(For a gentle introduction to Bayesian Neural Networks: [Bayesian NNets @ Towards Data Science](https://towardsdatascience.com/bayesian-neural-network-7041dd09f2cc). For Monte Carlo drop-out: [MC drop-out@ Towards Data Science](https://towardsdatascience.com/monte-carlo-dropout-7fd52f8b6571))
+
+
+#### Problem set-up and challenges
+
+The training set of this problem is the famous MNIST image data set: 
+![image](https://user-images.githubusercontent.com/102548683/211357150-0fd0a3a2-a630-477a-9c66-3f7b23ff2eb6.png)
+
+However, the testing data is constituted by modified versions of the MNIST images:
+![image](https://user-images.githubusercontent.com/102548683/211357356-90f39df9-f00f-44d5-9e58-f87b5825c650.png)
+
+Them the main challenge of this task is to build a model robust to modifications in the input data. 
+
+The performance metric governing the problem is the Expected Calibration error (ECE), composed by the accuracy and the empirical confidence of every prediction:
+![image](https://user-images.githubusercontent.com/102548683/211357862-8db50b12-48fd-4652-8d27-b2a81717d1eb.png)
+
+
+
+#### Approach and results
 
 
 <!-- Getting Started -->
