@@ -31,7 +31,7 @@ This Project contains 4 tasks carried out as part of the [Probabilistic Artifici
 </div>
 
 <div align="right"> 
-  <img src="![image](https://user-images.githubusercontent.com/102548683/211348534-70942249-1d80-4019-96c0-c0551ff63ba0.png)" />
+  <img src="![image](https://user-images.githubusercontent.com/102548683/211348767-76ddd9a3-8174-4f61-82bf-a724659e61dc.png)" alt = "screenshot />
 </div>
 
 
