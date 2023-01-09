@@ -2,7 +2,7 @@
 # Table of Contents
 
 - [About the Project](#about-the-project)
-  * [Task 1: Gaussian Process regression](#task-1:-Gaussian-Process-regression-to-predict-air-pollution)
+  * [Task 1: Gaussian Process regression](#task-1-Gaussian-Process-regression-to-predict-air-pollution)
 - [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
