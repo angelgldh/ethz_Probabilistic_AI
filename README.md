@@ -26,12 +26,12 @@ This Project contains 4 tasks carried out as part of the [Probabilistic Artifici
 
 ### Task 1: Gaussian Process regression
 
-<div align="left"> 
+<div align="center"> 
   <img src="![image](https://user-images.githubusercontent.com/102548683/211348396-e83bc627-e85e-40fc-8c27-1c0eb7e3e615.png)" />
 </div>
 
-<div align="right"> 
-  <img src="![image](https://user-images.githubusercontent.com/102548683/211348767-76ddd9a3-8174-4f61-82bf-a724659e61dc.png)" alt = "screenshot />
+<div align="center"> 
+  <img src="!https://user-images.githubusercontent.com/102548683/211348767-76ddd9a3-8174-4f61-82bf-a724659e61dc.png" alt = "screenshot />
 </div>
 
 
