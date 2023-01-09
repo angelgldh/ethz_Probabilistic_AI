@@ -26,7 +26,7 @@ This Project contains 4 tasks carried out as part of the [Probabilistic Artifici
 
 ### Task 1: Gaussian Process regression to predict air pollution
 
-![image](https://user-images.githubusercontent.com/102548683/211349765-1ef7a120-0bb2-4546-a9b3-37dc6f321383.png)
+![Air_pollution_map](https://user-images.githubusercontent.com/102548683/211349765-1ef7a120-0bb2-4546-a9b3-37dc6f321383.png)
  
  
 Image source: Koussoulakou, Alexandra & Soulakellis, Nikolaos & Sarafidis, Dimitrios. (2018). INTERACTIVE VISUALIZATIONS OF SPATIAL AND TEMPORAL AIR POLLUTION ASPECTS FOR MONITORING AND CONTROL. 
@@ -37,20 +37,24 @@ In this task, we aim to help a city predict and audit the concentration of fine 
 
 A pervasive class of models for weather and meteorology data are Gaussian Processes (GPs). We are then implementing  Gaussian Process regression in order to model air pollution and try to predict the concentration of PM2.5 at previously unmeasured locations.
 
-(For a gentle introduction to Gaussian processes: [Intro to Gaussian process regression](https://medium.com/data-science-at-microsoft/introduction-to-gaussian-process-regression-part-1-the-basics-3cb79d9f155f#:~:text=Gaussian%20process%20(GP)%20is%20a,generalization%20of%20multivariate%20Gaussian%20distributions.))
+(For a gentle introduction to GPs: [Intro to Gaussian process regression](https://medium.com/data-science-at-microsoft/introduction-to-gaussian-process-regression-part-1-the-basics-3cb79d9f155f#:~:text=Gaussian%20process%20(GP)%20is%20a,generalization%20of%20multivariate%20Gaussian%20distributions.))
 
 #### Problem set-up and challenges
 
 As features, we are given the coordinates (X,Y) of the city map. As target, we need to predict the pollution particles concentration at a given location.
 
 The problem presents various challenges:
-- Model selection. 
+- Model selection. Determination of right kernel and hyperparameters are key for GPs performance.
+- Large scale learning. As the number of observations increase, the computational cost of GPs grows exponentially: posterior complexity is of O(n^3). To tackle this problem, there are several approaches (undersampling, Kernel low-rank approximations, Local GPs). In this implementation, we made use of Local GPs, i.e., the fitting of various individual GPs along the map, instead of a global regressor for the whole of the set.
+- Asymmetric cost. Cost-sensitive learning is implemented as we implement a loss function that weights different kinds of errors differently: 
+![loss_function_task 1](https://user-images.githubusercontent.com/102548683/211354718-021ca464-f29b-4086-a04b-90fe00a274a5.png)
+
 
 #### Approach and results
 
 
 
-![image](https://user-images.githubusercontent.com/102548683/211350293-8b55d009-fbf6-4bfe-ba32-b23f47931e4c.png)
+![task_1_results](https://user-images.githubusercontent.com/102548683/211350293-8b55d009-fbf6-4bfe-ba32-b23f47931e4c.png)
 
 
 <!-- Getting Started -->
