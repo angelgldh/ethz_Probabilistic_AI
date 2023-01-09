@@ -27,7 +27,7 @@ This Project contains 4 tasks carried out as part of the [Probabilistic Artifici
 ### Task 1: Gaussian Process regression to predict air pollution
 
 <div align="center"> 
-    ![image](https://user-images.githubusercontent.com/102548683/211349765-1ef7a120-0bb2-4546-a9b3-37dc6f321383.png)
+![image](https://user-images.githubusercontent.com/102548683/211349765-1ef7a120-0bb2-4546-a9b3-37dc6f321383.png)
 </div>
 Image source: Koussoulakou, Alexandra & Soulakellis, Nikolaos & Sarafidis, Dimitrios. (2018). INTERACTIVE VISUALIZATIONS OF SPATIAL AND TEMPORAL AIR POLLUTION ASPECTS FOR MONITORING AND CONTROL. 
 
