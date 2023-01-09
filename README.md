@@ -24,16 +24,33 @@
 
 This Project contains 4 tasks carried out as part of the [Probabilistic Artificial Intelligence (PAI)](https://las.inf.ethz.ch/teaching/pai-f22) subject at ETH-Zurich, Autumn 2022 semester.
 
-### Task 1: Gaussian Process regression
+### Task 1: Gaussian Process regression to predict air pollution
 
 <div align="center"> 
-  <img src="![image](https://user-images.githubusercontent.com/102548683/211348396-e83bc627-e85e-40fc-8c27-1c0eb7e3e615.png)" />
+    ![image](https://user-images.githubusercontent.com/102548683/211349765-1ef7a120-0bb2-4546-a9b3-37dc6f321383.png)
 </div>
+Image source: Koussoulakou, Alexandra & Soulakellis, Nikolaos & Sarafidis, Dimitrios. (2018). INTERACTIVE VISUALIZATIONS OF SPATIAL AND TEMPORAL AIR POLLUTION ASPECTS FOR MONITORING AND CONTROL. 
+
+#### Goal
+
+In this task, we aim to help a city predict and audit the concentration of fine particulate matter (PM2.5) per cubic meter of air. In an initial phase, the city has collected preliminary measurements using mobile measurement stations. The goal is now to develop a pollution model that can predict the air pollution concentration in locations without measurements. This model will then be used to determine particularly polluted areas where permanent measurement stations should be deployed.
+
+A pervasive class of models for weather and meteorology data are Gaussian Processes (GPs). We are then implementing  Gaussian Process regression in order to model air pollution and try to predict the concentration of PM2.5 at previously unmeasured locations.
+
+(For a gentle introduction to Gaussian processes: [Intro to Gaussian process regression](https://medium.com/data-science-at-microsoft/introduction-to-gaussian-process-regression-part-1-the-basics-3cb79d9f155f#:~:text=Gaussian%20process%20(GP)%20is%20a,generalization%20of%20multivariate%20Gaussian%20distributions.))
+
+#### Problem set-up and challenges
+
+As features, we are given the coordinates (X,Y) of the city map. As target, we need to predict the pollution particles concentration at a given location.
+
+The problem presents various challenges:
+- Model selection. 
+
+#### Approach and results
 
 
-![image](https://user-images.githubusercontent.com/102548683/211349765-1ef7a120-0bb2-4546-a9b3-37dc6f321383.png)
 
-
+![image](https://user-images.githubusercontent.com/102548683/211350293-8b55d009-fbf6-4bfe-ba32-b23f47931e4c.png)
 
 
 <!-- Getting Started -->
