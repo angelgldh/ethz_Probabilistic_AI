@@ -86,6 +86,10 @@ The implementation of Monte Carlo drop out results in a satisfactory prediction 
 
 #### Goal
 
+In many real-world scenarios, collecting data can be very expensive. In this context, Bayesian optimization can be a good method: Bayesian optimization is characterizing by the sampling of new data points while at the same time it optimizes a given function. In this task, a Bayesian optimization model is implemented.
+
+(For a gentle introduction to Bayesian Optimization: [Exploring Bayesian optimization]([https://towardsdatascience.com/bayesian-neural-network-7041dd09f2cc](https://distill.pub/2020/bayesian-optimization/)). Implementing Bayesian Optimization from scratch in Python: [Bayesian Optimization @ ML Mastery]([https://towardsdatascience.com/monte-carlo-dropout-7fd52f8b6571](https://machinelearningmastery.com/what-is-bayesian-optimization/)))
+
 
 #### Problem set-up and challenges
 
