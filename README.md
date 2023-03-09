@@ -5,6 +5,8 @@
   * [Task 1: Gaussian Process regression to predict air pollution](#task-1-Gaussian-Process-regression-to-predict-air-pollution)
   * [Task 2: Bayesian neural Network (BNN) for multi-class classification](#task-2-Bayesian-neural-Network-BNN-for-multi-class-classification)
   * [Task 3: Bayesian optimization](#task-3-Bayesian-optimization)
+  * [Task 4: Lunar lander game following RL Actor-critic approach](#task-4-Lunar-lander-game-following-RL-Actor-critic-approach)
+
 
 
 <!-- About the Project -->
@@ -122,9 +124,5 @@ Learning Algorithms](https://proceedings.neurips.cc/paper/2012/file/05311655a15b
 
 
 
-Angel Garcia Lopez de Haro
-[@Linkedin](https://www.linkedin.com/in/angel-garcia-lopez-de-haro/)
-ETHZ email: angarcia@ethz.ch
-Work email: agarcialopezdeharo@gmail.com
-
+#### Task 4: Lunar lander game following RL Actor-critic approach
 
