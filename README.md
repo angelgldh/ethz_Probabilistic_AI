@@ -125,4 +125,8 @@ Learning Algorithms](https://proceedings.neurips.cc/paper/2012/file/05311655a15b
 
 
 #### Task 4: Lunar lander game following RL Actor-critic approach
+##### Goal
 
+##### Problem setting and challenges
+
+##### Approach and results
