@@ -73,6 +73,13 @@ The performance metric governing the problem is the Expected Calibration error (
 
 #### Approach and results
 
+The implementation of Monte Carlo drop out results in a satisfactory prediction result, yielding an ECE of 0.162, averaged in 200 repeats of the setting. Below the most confident predictions are shown, togehter with the model prediction of more ambigiuos test images. As potential next steps, one could developd a model more robust to this variability in the input.
+
+![image](https://user-images.githubusercontent.com/102548683/224070761-5531d03f-895a-4358-89f0-c9a817bdd3ae.png)
+![image](https://user-images.githubusercontent.com/102548683/224070837-3304f315-acfe-42bf-88fe-e7290009e819.png)
+
+
+
 
 
 Angel Garcia Lopez de Haro
