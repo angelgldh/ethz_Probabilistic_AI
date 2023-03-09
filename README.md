@@ -4,7 +4,7 @@
 - [About the Project](#about-the-project)
   * [Task 1: Gaussian Process regression to predict air pollution](#task-1-Gaussian-Process-regression-to-predict-air-pollution)
   * [Task 2: Bayesian neural Network (BNN) for multi-class classification](#task-2-Bayesian-neural-Network-BNN-for-multi-class-classification)
-  * [Task 3: Bayesian optimization](#task-2-Bayesian-optimization)
+  * [Task 3: Bayesian optimization](#task-3-Bayesian-optimization)
 
 
 <!-- About the Project -->
