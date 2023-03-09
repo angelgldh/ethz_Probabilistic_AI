@@ -4,7 +4,8 @@
 - [About the Project](#about-the-project)
   * [Task 1: Gaussian Process regression to predict air pollution](#task-1-Gaussian-Process-regression-to-predict-air-pollution)
   * [Task 2: Bayesian neural Network (BNN) for multi-class classification](#task-2-Bayesian-neural-Network-BNN-for-multi-class-classification)
-  
+  * [Task 3: Bayesian optimization](#task-2-Bayesian-optimization)
+
 
 <!-- About the Project -->
 ## About the Project
@@ -78,6 +79,20 @@ The implementation of Monte Carlo drop out results in a satisfactory prediction 
 ![image](https://user-images.githubusercontent.com/102548683/224070761-5531d03f-895a-4358-89f0-c9a817bdd3ae.png)
 ![image](https://user-images.githubusercontent.com/102548683/224070837-3304f315-acfe-42bf-88fe-e7290009e819.png)
 
+
+
+### Task 3: Bayesian optimization
+
+
+#### Goal
+
+
+#### Problem set-up and challenges
+
+
+
+
+#### Approach and results
 
 
 
