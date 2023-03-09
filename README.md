@@ -109,11 +109,16 @@ The accomplishment of the problem presentes the following main challenges:
 
 - The noise perturbing the observations is Gaussian with standard deviation, and the unit of measurement is not relevant.
 
- -The domain is T = [0, 5], and the hyperparameter may take continuous values.
+- The domain is T = [0, 5], and the hyperparameter may take continuous values.
 
 
 #### Approach and results
 
+Implementation of both the probability of improvement and the expected improvement leads to satisfactory results. These two approaches can be revisited in the following papers:
+
+[1] [Practical Bayesian Optimization of Machine
+Learning Algorithms](https://proceedings.neurips.cc/paper/2012/file/05311655a15b75fab86956663e1819cd-Paper.pdf)
+[2] [Bayesian Optimization with Unknown Constraints](https://www.cs.princeton.edu/~rpa/pubs/gelbart2014constraints.pdf)
 
 
 
