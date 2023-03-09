@@ -88,12 +88,28 @@ The implementation of Monte Carlo drop out results in a satisfactory prediction 
 
 In many real-world scenarios, collecting data can be very expensive. In this context, Bayesian optimization can be a good method: Bayesian optimization is characterizing by the sampling of new data points while at the same time it optimizes a given function. In this task, a Bayesian optimization model is implemented.
 
+![image](https://user-images.githubusercontent.com/102548683/224078044-49131cc1-7f7b-4564-bcda-c122e17bb1e5.png)
+
 (For a gentle introduction to Bayesian Optimization: [Exploring Bayesian optimization]([https://towardsdatascience.com/bayesian-neural-network-7041dd09f2cc](https://distill.pub/2020/bayesian-optimization/)). Implementing Bayesian Optimization from scratch in Python: [Bayesian Optimization @ ML Mastery]([https://towardsdatascience.com/monte-carlo-dropout-7fd52f8b6571](https://machinelearningmastery.com/what-is-bayesian-optimization/)))
 
 
-#### Problem set-up and challenges
+#### Problem settting and challenges
 
+The task is to use Bayesian optimization to tune one hyperparameter of a machine learning model subject to a constraint on a property of the model. The hyperparameter of interest, denoted as T, is the number of layers in a deep neural network. The goal is to find a network that makes accurate and fast predictions, with the highest possible validation accuracy, such that a requirement on the average prediction speed is satisfied.
 
+The accomplishment of the problem presentes the following main challenges: 
+
+- The objective of this problem does not admit an analytical expression, is computationally expensive to evaluate and is only accessible through noisy evaluations.
+
+- The mapping from the space of hyperparameters to the corresponding validation accuracy and prediction speed can be effectively modeled with a Matérn kernel with variance, length scale, and smootheness parameter.
+
+- The minimum tolerated speed is a constraint on the problem, which may require trying hyperparameters for which the speed constraint is violated.
+
+- The training of the neural network is simulated, and the time required for this step is platform-independent.
+
+- The noise perturbing the observations is Gaussian with standard deviation, and the unit of measurement is not relevant.
+
+ -The domain is T = [0, 5], and the hyperparameter may take continuous values.
 
 
 #### Approach and results
