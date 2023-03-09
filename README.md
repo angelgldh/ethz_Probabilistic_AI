@@ -4,13 +4,6 @@
 - [About the Project](#about-the-project)
   * [Task 1: Gaussian Process regression to predict air pollution](#task-1-Gaussian-Process-regression-to-predict-air-pollution)
   * [Task 2: Bayesian neural Network (BNN) for multi-class classification](#task-2-Bayesian-neural-Network-BNN-for-multi-class-classification)
-- [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-  * [Run Locally](#run-locally)
-- [Roadmap](#roadmap)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
   
 
 <!-- About the Project -->
@@ -81,78 +74,10 @@ The performance metric governing the problem is the Expected Calibration error (
 #### Approach and results
 
 
-<!-- Getting Started -->
-## Getting Started
-
-<!-- Prerequisites -->
-### Prerequisites
-
-This project uses Yarn as package manager
-
-```bash
- npm install --global yarn
-```
-
-<!-- Installation -->
-### Installation
-
-Install my-project with npm
-
-```bash
-  yarn install my-project
-  cd my-project
-```
-
-
-<!-- Run Locally -->
-### Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/Louis3797/awesome-readme-template.git
-```
-
-Go to the project directory
-
-```bash
-  cd my-project
-```
-
-Install dependencies
-
-```bash
-  yarn install
-```
-
-Start the server
-
-```bash
-  yarn start
-```
-
-
-<!-- Roadmap -->
-## Roadmap
-
-* [x] Todo 1
-* [ ] Todo 2
-
-<!-- Contributing -->
-## Contributing
-
-Contributions are always welcome!
-
-
-<!-- Contact -->
-## Contact
 
 Angel Garcia Lopez de Haro
 [@Linkedin](https://www.linkedin.com/in/angel-garcia-lopez-de-haro/)
 ETHZ email: angarcia@ethz.ch
 Work email: agarcialopezdeharo@gmail.com
 
-
-<!-- Acknowledgments -->
-## Acknowledgements
 
